@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "bundle": "esbuild src/index.ts --format=esm --target=es6 --bundle --sourcemap --outdir=dist"
+    "build": "esbuild src/index.ts --format=esm --target=es6 --bundle --outfile=dist/RainCleansVomit.js"
   },
   "devDependencies": {
     "esbuild": "^0.14.1",
