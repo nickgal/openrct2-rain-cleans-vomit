@@ -1,0 +1,14 @@
+{
+  "name": "openrct2-rain-cleans-vomit",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "bundle": "esbuild src/index.ts --format=esm --target=es6 --bundle --sourcemap --outdir=dist"
+  },
+  "devDependencies": {
+    "esbuild": "^0.14.1",
+    "tslint": "^6.1.3",
+    "typescript": "^4.5.2"
+  }
+}
